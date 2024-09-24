@@ -16,7 +16,7 @@ int main() {
             sum++;
         }
     }
-    if(sum > 2)
+    if(sum >= 2)
     {
         cout << 'E';
     }
