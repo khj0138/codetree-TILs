@@ -16,7 +16,7 @@ int main() {
     {
         c *= 10.f;
         num = c;
-        c -= num;
+        c -= (float)num;
         cout << num % 10;
     }
     return 0;
