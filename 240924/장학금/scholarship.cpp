@@ -17,6 +17,6 @@ int main() {
             price = 5;
         }
     }
-    cout << price;
+    cout << price * 10000;
     return 0;
 }
