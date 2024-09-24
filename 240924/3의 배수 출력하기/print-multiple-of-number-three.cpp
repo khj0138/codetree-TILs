@@ -8,7 +8,7 @@ int main() {
     int i = 3;
     while(i <= n)
     {
-        cout << i;
+        cout << i << ' ';
         i += 3;
     }
     return 0;
