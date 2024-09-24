@@ -17,6 +17,17 @@ int main() {
             middle = c;
         }
     }
+    else if (a <= c)
+    {
+        if (b >= c)
+        {
+            middle = c;
+        }
+        else
+        {
+            middle = b;
+        }
+    }
     cout << middle;
     return 0;
 }
