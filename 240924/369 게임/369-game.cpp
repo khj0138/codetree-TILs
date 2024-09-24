@@ -18,7 +18,11 @@ int main() {
         {
             ten = i / 10;
             one = i % 10;
-            if(ten % 3 == 0 || one % 3 == 0)
+            if(ten != 0 && ten % 3 == 0 )
+            {
+                cout << 0 << ' ';
+            }
+            else if(one != 0 && one % 3 == 0)
             {
                 cout << 0 << ' ';
             }
