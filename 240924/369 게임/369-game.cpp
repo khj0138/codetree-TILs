@@ -12,7 +12,6 @@ int main() {
         if(i % 3 == 0)
         {
             cout << 0 << ' ';
-            continue;
         }
         else
         {
