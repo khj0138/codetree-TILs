@@ -5,13 +5,13 @@ int main() {
     // 여기에 코드를 작성해주세요.
     char c;
     char test;
-    double temp;
+    int temp;
 
     int sum;
     for(int i = 0; i < 3; i++)
     {
         cin >> test >> temp;
-        if (test == 'Y' && temp >= 37.f)
+        if (test == 'Y' && temp >= 37)
         {
             sum++;
         }
