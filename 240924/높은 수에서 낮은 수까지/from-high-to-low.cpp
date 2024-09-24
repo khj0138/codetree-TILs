@@ -13,7 +13,7 @@ int main() {
     }
     for (int i = a; i >= b; i--)
     {
-        cout << a << ' ';
+        cout << i << ' ';
     }
     return 0;
 }
