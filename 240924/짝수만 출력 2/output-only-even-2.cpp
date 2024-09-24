@@ -13,7 +13,7 @@ int main() {
     while(i >= a)
     {
         cout << i << ' ';
-        i += 2;
+        i -= 2;
     }
     return 0;
 }
