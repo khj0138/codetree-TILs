@@ -24,10 +24,6 @@ int main() {
         {
             grade = 'D';
         }
-        else
-        {
-            grade = 'F';
-        }
         cout << grade << ' ';
     }
     return 0;
