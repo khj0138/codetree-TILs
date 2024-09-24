@@ -3,21 +3,18 @@ using namespace std;
 
 int main() {
     // 여기에 코드를 작성해주세요.
-    double a, b;
+    int a, b;
     cin >> a >> b;
-    double c = a / b;
-    cout << fixed;
-    cout.precision(1);
-    cout << c;
-    c *= 10.f;
 
-    int num = 0;
-    for (int i = 1; i < 20; i++)
+    int c = a / b;
+    cout << c << '.';
+    
+    for (int i = 0; i < 20; i++)
     {
-        c *= 10.f;
-        num = c;
-        c -= (float)num;
-        cout << num % 10;
+        a -= c * b;
+        a *= 10;
+        c = a / b;
+        cout << c;
     }
     return 0;
 }
