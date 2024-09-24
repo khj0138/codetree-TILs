@@ -11,7 +11,7 @@ int main() {
     }
     else
     {
-        cout << a / b;
+        cout << b / a;
     }
     return 0;
 }
