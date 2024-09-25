@@ -9,7 +9,7 @@ int main() {
     for (int i = 1; i <= 100; i++)
     {
         sum += i;
-        if ((sum + i) > n)
+        if (sum > n)
         {
             cout << i; 
             break;
