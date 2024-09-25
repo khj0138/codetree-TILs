@@ -6,11 +6,13 @@ int main() {
     int n;
     cin >> n;
     int sum = 0;
+    int input;
     for (int i = 0; i < n; i++)
     {
-        if (i % 2 == 0 && i % 3 == 0)
+        cin >> input;
+        if (input % 2 == 0 && input % 3 == 0)
         {
-            sum += i;
+            sum += input;
         }
     }
     cout << sum;
