@@ -8,12 +8,12 @@ int main() {
     int sum = 0;
     for (int i = 1; i <= 100; i++)
     {
+        sum += i;
         if ((sum + i) > n)
         {
+            cout << i; 
             break;
         }
-        sum += i;
     }
-    cout << sum;
     return 0;
 }
