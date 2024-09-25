@@ -6,7 +6,7 @@ int main() {
     int a, b;
     cin >> a >> b;
     int cnt = 0;
-    if (b > a)
+    if (a > b)
     {
         int temp = a;
         a = b;
