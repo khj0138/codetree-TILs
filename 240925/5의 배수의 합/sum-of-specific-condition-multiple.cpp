@@ -6,6 +6,12 @@ int main() {
     int a, b;
     cin >> a >> b;
     int cnt = 0;
+    if (b > a)
+    {
+        int temp = a;
+        a = b;
+        b = temp;
+    }
     for (int i = a; i <= b; i++)
     {
         if(i % 5 == 0)
