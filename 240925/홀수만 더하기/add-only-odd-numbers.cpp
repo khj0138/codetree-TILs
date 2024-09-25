@@ -10,7 +10,7 @@ int main() {
     for (int i = 0; i < n; i++)
     {
         cin >> input;
-        if (input % 2 == 0 && input % 3 == 0)
+        if (input % 2 != 0 && input % 3 == 0)
         {
             sum += input;
         }
