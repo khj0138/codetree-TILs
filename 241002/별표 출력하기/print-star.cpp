@@ -7,13 +7,13 @@ int main() {
     cin >> n;
 
     int check = 1;
-    for (int i = 0; i >= 0; i = i + check)
+    for (int i = 1; i >= 1; i = i + check)
     {
         if(i == n)
         {
             check = -1;
         }
-        for (int j = 0; j <= i; j++)
+        for (int j = 1; j <= i; j++)
         {
             cout << '*' << ' ';
         }
