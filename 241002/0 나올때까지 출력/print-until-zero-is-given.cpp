@@ -6,8 +6,9 @@ int main() {
     int n = -1;
     while(n != 0)
     {
+        if(n != -1)
+            cout << n << endl;
         cin >> n;
-        cout << n << endl;
     }
     return 0;
 }
