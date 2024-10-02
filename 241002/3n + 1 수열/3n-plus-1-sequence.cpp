@@ -9,19 +9,19 @@ int main() {
     cin >> n;
     while(!check)
     {
-        if(n % 2 == 0)
+        if(n == 1)
+        {
+            check = true;
+        }
+        else if(n % 2 == 0)
         {
             n /= 2;
+            cnt++;
         }
         else
         {
             n = n * 3 + 1;
-        }
-        cnt++;
-
-        if(n == 1)
-        {
-            check = true;
+            cnt++;
         }
     }
     cout << cnt;
