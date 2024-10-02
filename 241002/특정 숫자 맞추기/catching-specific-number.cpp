@@ -19,6 +19,7 @@ int main() {
         else
         {
             cout << "Good";
+            check = true;
         }
     }
     return 0;
