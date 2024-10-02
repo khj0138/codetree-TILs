@@ -8,7 +8,7 @@ int main() {
     bool check = false;
     for (int i = 2; i < n; i++)
     {
-        if(n * i == 0)
+        if(n % i == 0)
         {
             check = true;
             break;
