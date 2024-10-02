@@ -10,8 +10,11 @@ int main() {
     while(n > dummy)
     {
         cnt++;
-        n *= 10;
-        dummy *= 10;
+        if(n < cnt)
+        {
+            n *= 10;
+            dummy *= 10;
+        }
 
         n /= cnt;
     }
