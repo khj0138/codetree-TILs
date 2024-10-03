@@ -9,7 +9,7 @@ int main() {
     {
         for (int j = 0; j < n; j++)
         {
-            cout << (i * 4 + j) % 9 + 1;
+            cout << (i * n + j) % 9 + 1;
         }
         cout << endl;
     }
