@@ -16,7 +16,7 @@ int main() {
     {
         if (arr[i] == 0)
         {
-            cnt = i;
+            cnt = i - 1;
             break;
         }
     }
