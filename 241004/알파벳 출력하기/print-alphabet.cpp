@@ -10,7 +10,8 @@ int main() {
     {
         for (int j = 0; j <= i; j++)
         {
-            cout << alpha++;
+            cout << alpha;
+            alpha = (alpha + 1 - 'A') % 26 + 'A';    
         }
         cout << endl;
     }
