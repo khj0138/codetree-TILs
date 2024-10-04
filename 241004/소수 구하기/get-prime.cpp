@@ -6,18 +6,22 @@ int main() {
     int n;
     cin >> n;
     int cnt = 0;
+    bool check = false;
     for (int i = 1; i <= n; i++)
     {
+        check = true;
         for (int j = 2; j < i; j++)
         {
             if(i % j == 0)
             {
+                check = false;
                 break;
             }
-            if(j == (i - 1))
-            {
-                cout << i << ' ';
-            }
+            
+        }
+        if(check)
+        {
+            cout << i << ' ';
         }
     }
     return 0;
