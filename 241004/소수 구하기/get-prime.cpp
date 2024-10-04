@@ -7,7 +7,7 @@ int main() {
     cin >> n;
     int cnt = 0;
     bool check = false;
-    for (int i = 1; i <= n; i++)
+    for (int i = 2; i <= n; i++)
     {
         check = true;
         for (int j = 2; j < i; j++)
@@ -17,7 +17,6 @@ int main() {
                 check = false;
                 break;
             }
-            
         }
         if(check)
         {
