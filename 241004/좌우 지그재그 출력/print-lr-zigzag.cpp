@@ -12,7 +12,7 @@ int main() {
         {
             for (int j = 1; j <= n; j++)
             {
-                outNum = (i - 1) * n + j 
+                outNum = (i - 1) * n + j ;
                 cout << outNum << endl;
             }
         }
@@ -20,7 +20,7 @@ int main() {
         {
             for (int j = 1; j <= n; j++)
             {
-                outNum = (i - 1) * n + (n + 1 - j)
+                outNum = (i - 1) * n + (n + 1 - j);
                 cout << outNum << endl;
             }
         }
