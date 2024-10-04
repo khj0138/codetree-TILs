@@ -5,18 +5,18 @@ int main() {
     // 여기에 코드를 작성해주세요.
     int n;
     cin >> n;
-    int jCheck = 1;
-    for (int i = 0; i < 2; i++)
+    for (int i = 1; i <= n; i++)
     {
-        jCheck = 1;
-        for (int j = 0; j >= 0; j += jCheck)
+        if(i % 2 == 0)
         {
-            if(j >= n)
+            for (int j = n; j > 0; j--)
             {
-                jCheck = -1;
-                cout << endl;
+                cout << j;
             }
-            else
+        }
+        else
+        {
+            for (int j = 0; j < n; j++)
             {
                 cout << j + 1;
             }
