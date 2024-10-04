@@ -12,8 +12,8 @@ int main() {
         {
             for (int j = 1; j <= n; j++)
             {
-                outNum = (i - 1) * n + j ;
-                cout << outNum << endl;
+                outNum = (i - 1) * n + j;
+                cout << outNum << ' ';
             }
         }
         else
@@ -21,7 +21,7 @@ int main() {
             for (int j = 1; j <= n; j++)
             {
                 outNum = (i - 1) * n + (n + 1 - j);
-                cout << outNum << endl;
+                cout << outNum << ' ';
             }
         }
         cout << endl;
