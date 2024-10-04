@@ -10,7 +10,7 @@ int main() {
     {
         for (int j = 1; j <= i; j++)
         {
-            cout << sum++;
+            cout << sum++ << ' ';
         }
         cout << endl;
     }
