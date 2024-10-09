@@ -13,7 +13,7 @@ int main() {
     for (int i = 0; i < N; i++)
     {
         cin >> arr[i];
-        if(min  arr[i])
+        if(min > arr[i])
         {
             min = arr[i];
             cnt = 1;
