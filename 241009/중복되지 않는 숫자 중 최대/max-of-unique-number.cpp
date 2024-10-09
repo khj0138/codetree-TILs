@@ -23,6 +23,10 @@ int main() {
             cout << i;
             break;
         }
+        if(i == 1)
+        {
+            cout << -1;
+        }
     }
     delete arr;
     return 0;
