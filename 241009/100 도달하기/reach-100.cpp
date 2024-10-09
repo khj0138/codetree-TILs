@@ -7,8 +7,8 @@ int main() {
     int n;
     cin >> n;
     arr[0] = n;
-    cout << arr[0] << ' ' << arr[1] << ' ';
     arr[1] = 1;
+    cout << arr[0] << ' ' << arr[1] << ' ';
     for (int i = 0; i < 98; i++)
     {
         arr[i + 2] = arr[i] + arr[i + 1];
