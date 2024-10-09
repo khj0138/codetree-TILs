@@ -23,7 +23,7 @@ int main() {
     }
     for (int i = 0; i < n; i++)
     {
-        if(evenArr[n] == -1)
+        if(evenArr[i] == -1)
         {
             break;
         }
@@ -32,5 +32,8 @@ int main() {
             cout << evenArr[i] << ' ';
         }
     }
+    delete arr;
+    delete evenArr;
+
     return 0;
 }
