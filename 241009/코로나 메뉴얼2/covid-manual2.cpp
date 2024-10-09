@@ -41,6 +41,5 @@ int main() {
     {
         cout << 'E';
     }
-    delete arr;
     return 0;
 }
