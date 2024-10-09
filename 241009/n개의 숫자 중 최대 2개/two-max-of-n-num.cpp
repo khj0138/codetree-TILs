@@ -24,6 +24,7 @@ int main() {
             }
         }
     }
+    cout << max1 << ' ' << max2;
     delete arr;
     return 0;
 }
