@@ -12,6 +12,6 @@ int main() {
     {
         cout << c[i] << ' ';
     }
-    
+    delete c;
     return 0;
 }
