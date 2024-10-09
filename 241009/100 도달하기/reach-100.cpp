@@ -6,8 +6,8 @@ int main() {
     int* arr = new int[100];
     int n;
     cin >> n;
-    arr[0] = n;
-    arr[1] = 1;
+    arr[0] = 1;
+    arr[1] = n;
     cout << arr[0] << ' ' << arr[1] << ' ';
     for (int i = 0; i < 98; i++)
     {
