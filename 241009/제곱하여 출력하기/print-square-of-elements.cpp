@@ -7,6 +7,7 @@ int main() {
     int* arr = new int[n];
     for (int i = 0; i < n; i++)
     {
+        cin >> arr[i];
         cout << arr[i] * arr[i] << ' ';
     }
     delete arr;
