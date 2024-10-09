@@ -21,7 +21,7 @@ int main() {
     {
         int temp = large;
         large = small;
-        small = large;
+        small = temp;
     }
     cout << large - small;
     return 0;
