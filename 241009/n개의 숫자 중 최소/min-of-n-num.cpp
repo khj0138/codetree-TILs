@@ -8,12 +8,12 @@ int main() {
     cin >> N;
 
     int* arr = new int[N];
-    int min = 1024 * 1024 * 1024 * (-2);
+    int min = 1024 * 1024 * 1024 * (2) - 1;
     int cnt = 0;
     for (int i = 0; i < N; i++)
     {
         cin >> arr[i];
-        if(min > arr[i])
+        if(min  arr[i])
         {
             min = arr[i];
             cnt = 1;
