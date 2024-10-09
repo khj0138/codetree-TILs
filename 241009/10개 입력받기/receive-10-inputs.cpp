@@ -17,6 +17,8 @@ int main() {
         sum += n;
     }
     double avr = (double)sum / (double)cnt;
+    cout << fixed;
+    cout.precision(1);
     cout << sum << ' ' << avr;
     return 0;
 }
