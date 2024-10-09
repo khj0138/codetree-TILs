@@ -12,6 +12,8 @@ int main() {
     for (int i = 0; i < 100; i++)
     {
         cin >> arr[i];
+        if(arr[i] == 0)
+            break;
         scoreCheck[arr[i] / 10]++;
     }
     for (int i = 10; i >= 1; i--)
