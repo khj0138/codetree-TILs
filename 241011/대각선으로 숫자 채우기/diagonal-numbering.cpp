@@ -15,7 +15,7 @@ int main() {
     {
         for (int j = 0; j < m; j++)
         {
-            arr[num1][num2] = i * n + j + 1;
+            arr[num1][num2] = i * m + j + 1;
             num2--;
             num1++;
             if(num2 < 0 || num1 >= n)
